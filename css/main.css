@@ -1,0 +1,199 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    }
+  
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0px;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    border-top: 1px solid #eee;
+    float: left;
+    margin: 0px auto;
+    padding: 0px;
+    width: 399px;   
+}
+
+/***** HEADER *****/
+
+header {
+    height: 110px;
+}
+
+header h1 { 
+    font-size: 30px;
+    line-height: 23px;
+    padding: 40px 0px 40px 6px;
+    text-transform: uppercase;
+}
+
+/***** Header link to homepage without looking ugly. *****/
+
+header h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right; 
+    padding: 45px 6px 45px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;     
+}
+
+/***** HERO *****/
+
+
+#hero, #hero h2 {
+    height: 300px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#hero h2 {
+    color: #eee;
+    font-size: 80px;
+    position: relative;
+    text-align: center;
+    text-shadow: 3px 3px 0px #77a466;
+    top: -200px;
+}
+
+#hero img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+/***** TOP *****/
+
+#top {
+    clear: both;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#top h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#top p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#map {
+    text-align: center;
+}
+
+/***** BOTTOM *****/
+
+#bottom {
+    clear: both;
+    height: auto;
+    margin: 0px auto;
+}
+
+#bottom h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#reviews h3,
+#contact h3 {
+    padding: 10px 30px;
+}
+
+#menu {
+    padding: 10px 0px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+#menu ul li,
+#menu ul li a {
+        color: #77a466;
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 10px;
+        text-decoration: none; 
+}
+
+#reviews {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    font-size: 16px;
+    line-height: 21px;
+    }
+
+#contact {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#reviews p,
+#contact p {
+    padding: 0px 30px;
+}
+
+footer {
+    border-top: 1px solid #eee;
+    clear: both;
+	height: 50px;
+	margin: 0px auto;
+	text-align: center;
+    width: 1200px;
+}
+
+footer h2 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #77a466;
+	font-family: 'Galada', cursive;
+    font-size: 16px;
+    font-weight: normal;
+	text-transform: lowercase;
+}
